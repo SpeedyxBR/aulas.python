@@ -1,21 +1,31 @@
-'''
-iniciar com letra, pode conter números, separar_, letras minúsculas
-'''
+# Aula 6: Concatenação e Repetição com Strings
 
-nome = 'Andrel'
-idade = 20  #int
-altura = 1.90  # float
-e_maior = idade > 18  # bool
-data_1 = True
-data_atual = 2022
-peso = 115
-imc = peso / (altura ** 2)
+# --- Concatenação (+) ---
+# O operador de soma (+) quando usado com strings, serve para "juntar" ou "concatenar" textos.
 
-print('Nome:', nome)
-print('Idade:', idade)
-print('Altura:', altura)
-print('É maior:', e_maior)
+parte1 = "Olá"
+parte2 = "Mundo"
 
-print(idade * altura)
-print(nome, 'Tem', idade,'Anos de Idade', altura, e_maior, peso, imc)
+# Juntando as duas partes. Note que não há espaço entre elas.
+saudacao_sem_espaco = parte1 + parte2
+print("Concatenação sem espaço:", saudacao_sem_espaco)
 
+# Para adicionar um espaço, precisamos concatená-lo também.
+saudacao_com_espaco = parte1 + " " + parte2
+print("Concatenação com espaço:", saudacao_com_espaco)
+
+# --- Repetição (*) ---
+# O operador de multiplicação (*) quando usado com uma string e um número, repete a string.
+
+texto = "Python "
+
+# Repetindo a string `texto` 3 vezes.
+texto_repetido = texto * 3
+print("String repetida 3 vezes:", texto_repetido)
+
+# Outro exemplo: criando uma linha de separação.
+linha = "-" * 20  # Repete o traço 20 vezes
+print(linha)
+
+# Importante: Não é possível usar outros operadores aritméticos como -, / com strings.
+# Tentar fazer `"texto" - 3` ou `"texto" / 2` resultará em um erro.
