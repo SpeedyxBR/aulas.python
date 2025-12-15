@@ -91,3 +91,7 @@ Este repositório contém exercícios e exemplos de código do curso de Python, 
 ### Aula 22: Validador de CPF
 
 - **Conceitos:** Projeto prático que implementa um validador de CPF completo, aplicando as regras matemáticas oficiais para o cálculo dos dígitos verificadores e checando por sequências inválidas.
+
+### Aula 23: Funções (`def`)
+
+- **Conceitos:** Introdução à criação de funções com a palavra-chave `def`. Explica como definir parâmetros com valores padrão e como usar a instrução `return` para enviar um resultado de volta.
